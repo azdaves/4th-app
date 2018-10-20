@@ -1,6 +1,9 @@
 {
   "name": "4th-app",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.12.0"
+  },
   "private": true,
   "dependencies": {
     "ajv": "^6.5.4",
@@ -12,9 +15,6 @@
     "react-scripts": "2.0.4",
     "reactstrap": "^6.5.0",
     "serve": "^10.0.2"
-  },
-  "engines": {
-    "node": "8.12.0"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -34,6 +34,4 @@
     "not op_mini all"
   ]
 }
-"engines": {
-  "node": "8.12.0"
-}
+
