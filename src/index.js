@@ -5,6 +5,8 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import Amendment from "./components/amendment";
+import { Button } from "reactstrap";
+import { jumbotron } from "reactstrap";
 
 ReactDOM.render(<Amendment />, document.getElementById("root"));
 
