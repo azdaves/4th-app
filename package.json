@@ -13,6 +13,9 @@
     "reactstrap": "^6.5.0",
     "serve": "^10.0.2"
   },
+  "engines": {
+    "node": "8.12.0"
+  },
   "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
@@ -30,4 +33,7 @@
     "not ie <= 11",
     "not op_mini all"
   ]
+}
+"engines": {
+  "node": "8.12.0"
 }
